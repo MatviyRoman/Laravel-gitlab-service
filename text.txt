@@ -1,0 +1,9 @@
+id 66bcd3acb65828994e0bacb9173d2cdad83174f6d534f437fe626b5b420a7db0
+secret e16c4ae9953b5b9d479bbebb5e888bde68730695278a309fa2d4348c6a2c9ca7
+Callback URL http://dew.localhost/gitlab/login/gitlab/callback
+Confidential	Yes
+Scopes	
+api (Access the authenticated user's API)
+read_user (Read the authenticated user's personal information)
+read_repository (Allows read-only access to the repository)
+profile (Allows read-only access to the user's personal information using OpenID Connect)
