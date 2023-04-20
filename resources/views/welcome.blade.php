@@ -87,11 +87,11 @@
 
                                     <form action="{{ route('logout') }}" method="POST">
                                         @csrf
-                                        <button type="submit" style="cursor: pointer;">Logout</button>
+                                        <button type="submit" style="cursor: pointer; border: 1px solid #000;">Logout</button>
                                     </form>
                                     @else
 
-                                    <a href="{{ route('login') }}" style="background: #fff; color: #000;">Login</a>
+                                    <a href="{{ route('login') }}" style="background: #fff; color: #000; border: 1px solid #000;">Login</a>
                                     @endif
 
                                 </div>
@@ -105,9 +105,9 @@
                     Створено <a href="https://github.com/MatviyRoman">Roman Matviy</a>,<br>
                     вихідний код: <a href="https://github.com/MatviyRoman/Laravel-gitlab-service">https://github.com/MatviyRoman/Laravel-gitlab-service</a>.
                     </div>
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
+                    <!-- <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
